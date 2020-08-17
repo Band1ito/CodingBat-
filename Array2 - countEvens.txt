@@ -1,0 +1,30 @@
+public int countEvens(int[] nums) {
+  
+  
+
+  int total = 0;
+  
+  
+
+  for (int i = 0; i < nums.length ; i ++){
+    
+  
+  int tal = nums [i];
+    
+
+  boolean checkTal = (tal%2 == 0);
+    
+    
+
+  if(checkTal){total++;}
+    
+  
+
+  }
+  
+  
+
+  return total;
+
+
+}
